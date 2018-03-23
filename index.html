@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Epicodus Track Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What Epicodus Route is Right for Me??</h1>
+      <p><strong><em>Enter your information and we'll find what class is best for you to take to succeed in what you want.</em></strong></p>
+
+      <form id="info">
+        <div class="container">
+          <label class="control-label" for="gender">Gender</label>
+          <select id="gender">
+           <option value="female">Female</option>
+           <option value="male">Male</option>
+          </select>
+        </div>
+        <div class="container">
+          <label class="control-label" for="company">What kind of company would you like to work at in Future?</label>
+          <select id="company">
+             <option value="1">Microsoft(Large Corporation)</option>
+             <option value="2">Steam(video game company)</option>
+             <option value="3">Godaddy.com(website company)</option>
+             <option value="4">Groupon(recently new and rising company)</option>
+          </select>
+        </div>
+        <div class="container">
+          <label class="control-label" for="system">What operating system are you most comfortable with?</label>
+          <select id="system">
+             <option value="1">Windows</option>
+             <option value="2">MAC</option>
+             <option value="3">Linux</option>
+             <option value="4">Ubuntu</option>
+             <option value="5">Other</option>
+          </select>
+        </div>
+        <div class="container">
+          <label class="control-label" for="work_type">Would you like to wor from home or office.</label>
+          <select id="work_type">
+             <option value="1">Home</option>
+             <option value="2">Office<option>
+          </select>
+          </div>
+        </div>
+        <div class="container">
+          <label class="control-label" for="city">Where would you like to work at in the world?</label>
+          <select id="city">
+             <option value="1">Seattle</option>
+             <option value="2">New York</option>
+             <option value="3">Silicon Valley</option>
+             <option value="4">Tokyo</option>
+             <option value="5">London</option>
+          </select>
+        </div>
+        
+        <div class="container">
+          <button type="submit" class="btn btn-info">Route Suggester Success</button>
+        </div>
+      </form>
+      <div id="route">
+        <h2>Your route for success is taking <span class="suggest"></span>. Technology and Programming is growing every day, you have made the right choice in choosing Epicodus and greatness is in you future.</h2>
+      </div>
+    </div>
+  </body>
+</html>

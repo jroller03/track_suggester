@@ -1,3 +1,24 @@
+.jumbotron {
+  text-align: center;
+}
+
+body{
+  background-image: url("https://blog.pusher.com/wp-content/uploads/2017/06/How-you-can-become-an-AR-VR-developer.jpg");
+  background-size: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  background-color: red;
+  padding: 4px;
+  margin: 4px;
+}
+
 #route {
   display: none;
   text-align: center;

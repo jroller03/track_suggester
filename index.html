@@ -9,9 +9,16 @@
   </head>
   <body>
     <div class="container">
-      <h1>What Epicodus Route is Right for Me??</h1>
-      <p><strong><em>Enter your information and we'll find what class is best for you to take to succeed in what you want.</em></strong></p>
-
+      <div class="jumbotron">
+        <h1>What Epicodus Route is Right for Me??</h1>
+        <p><strong><em>Enter your information and we'll find what class is best for you to take to succeed in what you want.</em></strong></p>
+        <nav>
+          <ul>
+            <li><a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">What should I learn at Epicodus?</a></li>
+            <li><a href="https://www.epicodus.com/what-to-expect/">What to expect at Epicodus.</a></li>
+          </ul>
+        </nav>
+      </div>
       <form id="info">
         <div class="container">
           <label class="control-label" for="gender">Gender</label>
@@ -59,6 +66,7 @@
         </div>
         <div class="container">
          <label class="control-label" for="typing">Please type the following sentence for WPM quiz: How much wood would a woodchuck chuck if a woodchuck could chuck wood? He would chuck, he would, as much as he could, and chuck as much wood as a woodchuck would if a woodchuck could chuck wood.</label>
+         <input id="typing" type="text">
        </div>
        <div class="container">
          <label class="control-label" for="passion">Do you love programming?</label>
@@ -67,6 +75,8 @@
             <option value="2">NO<option>
          </select>
         <div class="container">
+          <br>
+          <br>
           <button type="submit" class="btn btn-info">Route Suggester Success</button>
         </div>
       </form>

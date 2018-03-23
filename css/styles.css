@@ -2,10 +2,15 @@
   text-align: center;
 }
 
+h2{
+  text-align: center;
+  color: black;
+}
+
 body{
   background-image: url("https://blog.pusher.com/wp-content/uploads/2017/06/How-you-can-become-an-AR-VR-developer.jpg");
   background-size: 100%;
-  text-align: center;
+  text-align: left;
   font-size: 25px;
 }
 
@@ -25,4 +30,10 @@ nav {
   border: 2px solid red;
   padding: 2px;
   margin: 100px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.suggest {
+  color: red;
 }

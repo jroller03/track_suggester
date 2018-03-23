@@ -26,5 +26,6 @@ $(document).ready(function(){
       $("#route").show();
     }
     event.preventDefault();
+    console.log(this);
   });
 });

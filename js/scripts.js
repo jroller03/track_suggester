@@ -1,9 +1,8 @@
 $(document).ready(function(){
   $("form#info").submit(function(event){
-    var gender = $("select#gender").val();
     var company = $("select#company").val();
     var system = $("select#system").val();
-    var work_type = $("select#work_type").val();
+    var comfort = $("select#comfort").val();
     var city = $("select#city").val();
     var typing = $("input#typing").val();
     var passion = $("select#passion").val();
@@ -12,19 +11,20 @@ $(document).ready(function(){
       alert("Please fill out all the forms!");
       return;
     }
-    if (company === 'Microsoft'){
-        $(".suggest").text("C#/.Net");
-        $("#route").show();
-      }else if (company === 'Steam') {
-        $(".suggest").text("Java and CSS");
-        $("#route").show();
-      } else if (company === 'Godaddy.com'){
-        $(".suggest").text("Java and CSS");
-        $("#route").show();
-      } else if (company === 'Groupon'){
-        $(".suggest").text("Ruby/Rails");
-        $("#route").show();
-      }
+
+    if (company === '1') {
+      $(".suggest").text("C#/.Net");
+      $("#route").show();
+    } else if (company === '2') {
+      $(".suggest").text("Java and C#");
+      $("#route").show();
+    } else if (company === '3') {
+      $(".suggest").text("Java, C#, and PHP");
+      $("#route").show();
+    } else if (company === '4') {
+      $(".suggest").text("Ruby/Rails");
+      $("#route").show();
+    }
     event.preventDefault();
   });
 });
